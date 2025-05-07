@@ -1,2 +1,5 @@
-# hello-nextjs
-Tuto officiel Next.js (https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
+## Next.js App Router Course - Starter
+
+This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+
+For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
