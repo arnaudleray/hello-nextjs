@@ -6,8 +6,6 @@ import { fetchLatestInvoices } from '@/app/lib/data';
 import { Suspense } from 'react';
 import { LatestInvoicesSkeleton } from '@/app/ui/skeletons';
 
-export const revalidate = 0;
-
 export default async function LatestInvoices() {
   const latestInvoices = await fetchLatestInvoices();
 

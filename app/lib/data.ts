@@ -1,4 +1,5 @@
 import postgres from 'postgres';
+import { unstable_noStore as noStore } from 'next/cache';
 import {
   CustomerField,
   CustomersTableType,
@@ -31,6 +32,7 @@ export async function fetchRevenue() {
 }
 
 export async function fetchLatestInvoices() {
+  noStore();
   try {
     await new Promise((resolve) => setTimeout(resolve, 5000));
 
